@@ -1,12 +1,4 @@
-@font-face {
-    font-weight: 400;
-    font-family: "Muller";
-    font-style: normal;
-    font-display: swap;
-    src: url("fonts/Muller.woff") format("woff");
-  }
-  
-  body {
+ body {
     margin: 40px 32px;
   
     font-size: 18px;
@@ -82,7 +74,6 @@
   
   .todo-list-input:checked + span::before {
     background-color: #69b253;
-    background-image: url("check-white.svg");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -104,7 +95,6 @@
   
     margin-right: 13px;
   
-    background-image: url("check-green.svg");
     background-repeat: no-repeat;
     background-position: center;
   }
